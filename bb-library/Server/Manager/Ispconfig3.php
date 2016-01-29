@@ -329,7 +329,7 @@ class Server_Manager_Ispconfig3 extends Server_Manager
             'limit_spamfilter_wblist' =>'-1',
             'limit_spamfilter_user' =>'-1',
             'limit_spamfilter_policy' =>'-1',
-
+            'limit_aps' =>'-1',
             'default_webserver' =>'1',
             'limit_web_domain' =>'-1',
             'web_php_options' =>"SuPHP",
