@@ -337,7 +337,7 @@ class Server_Manager_Ispconfig3 extends Server_Manager
             'limit_web_subdomain' =>'-1',
             'limit_ftp_user' =>'-1',
             'limit_shell_user' =>'-1',
-            'ssh_chroot' =>'None',
+            'ssh_chroot' =>"no",
 
             'default_dnsserver' =>'1',
             'limit_dns_zone' =>'-1',
