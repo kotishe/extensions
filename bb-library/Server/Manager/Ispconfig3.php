@@ -349,6 +349,7 @@ class Server_Manager_Ispconfig3 extends Server_Manager
             'limit_cron' =>'0',
             'limit_cron_type' =>'',
             'limit_cron_frequency' =>'-1',
+             'added_date'   => date('Y-m-d'),
         );
         $action = 'client_add';
         $result = $this->_request($action, $params);
